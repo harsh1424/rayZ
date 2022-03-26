@@ -1,0 +1,106 @@
+.icons{
+    font-size: 50px;
+    text-align: center;
+    
+    color: aqua;
+    
+}
+
+.formContainer{
+    background-color: rgb(246, 204, 124);
+}
+.formContainer input{
+    border-radius: 10px;
+}
+
+.formContainer select{
+    border-radius: 10px;
+}
+
+/* Temporary until Bootstrap 5 brings these rules back... */
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
+  .embed-responsive-16by9::before {
+    padding-top: 56.25%;
+  }
+  
+  .embed-responsive::before {
+    display: block;
+    content: "";
+  }
+  
+
+  .social .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 3px;
+    border-radius: 50%;
+  }
+  
+  .social .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .social .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .social .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .social .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .social .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .copyright p{
+    color: #5c626e;
+    line-height: 1;
+    margin: 0;
+    font-weight: 500;
+    margin-left: 24px;
+  }
+
+  .ReadMore{
+    
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
+    
+    padding: 8px;
+   
+
+  }
